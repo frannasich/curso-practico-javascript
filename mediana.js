@@ -1,3 +1,10 @@
+// function onClickButtonMediana(){
+//     const inputLista = document.getElementById("InputLista")
+//     const listaValue = inputLista.value
+
+//     calcularMediana(listaValue)
+// }
+
 function calcularMediaAritmetica(lista) {
     const sumaLista = lista.reduce(
       function(valorAcumulado = 0, nuevoElemento){
@@ -11,7 +18,6 @@ function calcularMediaAritmetica(lista) {
   }
 
 
-
 let mediana;
 
 
@@ -23,7 +29,6 @@ function esPar (numero){
         return false;
     }
 }
-
 
 
 function calcularMediana(lista){
@@ -49,6 +54,9 @@ function calcularMediana(lista){
         mediana = lista[mitadLista];
       }
 
+      // const textHtml = document.getElementById("TextR")
+      
+      // return textHtml.innerText = "La mediana es: " + mediana
       return mediana
 }
 
